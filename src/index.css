@@ -6,3 +6,21 @@
 .shadow{
  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
+
+.gray{
+ @apply bg-[#292B2C]
+}
+
+
+/* Change the pagination color */
+.swiper-pagination {
+ @apply text-red-500
+ 
+   
+}
+
+/* Change the active pagination color */
+.swiper-pagination-bullet-active {
+   @apply bg-red-500 /* Replace with your desired color */
+}
+

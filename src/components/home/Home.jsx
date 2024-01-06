@@ -8,9 +8,9 @@ import {
 import StatsComponent from './StatsComponent'
 const Home = () => {
   return (
-    <div>
+    <div id='1'>
       <div className='before:absolute before:-z-10 before:bg-[url(https://fitpulse.onlywebcoding.com.ua/images/header-img.png)] before:top-0 before:left-0 -mt-20 before:bg-no-repeat before:bg-top grid items-center before:h-screen h-screen before:w-full before:bg-blend-overlay before:bg-black/30  before:bg-cover'>
-        <div className='container mx-auto'>
+        <div className=' w-[90vw] md:container mx-auto'>
           <p className='leading-normal md:text-5xl text-4xl lg:text-7xl  font-bold '>
             STRENGTH IN MOTION <br />
             YOUR PATH TO A BETTER YOU
