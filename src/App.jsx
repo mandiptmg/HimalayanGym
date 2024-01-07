@@ -7,6 +7,8 @@ import Price from './components/price/Price'
 import Services from './components/sercives/Services'
 import Testimonial from './components/Testinominal/Testimonial'
 import SignUp from './components/signup/SignUp'
+import Contact from './components/contact/Contact'
+import Footer from './components/footer/Footer'
 const App = () => {
   return (
     <div>
@@ -19,6 +21,8 @@ const App = () => {
       <Testimonial/>
       <Faq/>
       <SignUp/>
+      <Contact/>
+      <Footer/>
     </div>
   )
 }

@@ -2,25 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
-
-.shadow{
- box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+.shad {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.gray{
- @apply bg-[#292B2C]
+.gray {
+  @apply bg-[#292B2C];
+}
+
+.h1 {
+  @apply uppercase font-bold md:text-lg 
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+  -webkit-appearance: none;
 }
 
 
 /* Change the pagination color */
 .swiper-pagination {
- @apply text-red-500
- 
-   
+  @apply text-red-500;
 }
 
 /* Change the active pagination color */
 .swiper-pagination-bullet-active {
-   @apply bg-red-500 /* Replace with your desired color */
+  @apply bg-red-500 /* Replace with your desired color */;
 }
+
+
 

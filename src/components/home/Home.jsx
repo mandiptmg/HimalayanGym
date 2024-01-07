@@ -17,34 +17,39 @@ const Home = () => {
           </p>
           <div>
             <ul className='flex gap-4 mt-4 text-xl items-center'>
-              <li className='hover:text-red-400'>
-                <a href='https://www.facebook.com/'>
-                  {' '}
-                  <FaFacebook />
-                </a>
+              <li
+                onClick={() => window.open('https://www.facebook.com/')}
+                className='hover:text-red-400 cursor-pointer'
+              >
+                {' '}
+                <FaFacebook />
               </li>
-              <li className='hover:text-red-400'>
-                <a href='https://www.twitter.com/'>
-                  {' '}
-                  <FaTwitter />
-                </a>
+              <li
+                onClick={() => window.open('https://www.twitter.com/')}
+                className='hover:text-red-400 cursor-pointer'
+              >
+                {' '}
+                <FaTwitter />
               </li>
-              <li className='hover:text-red-400'>
-                <a href='https://www.instagram.com/'>
-                  {' '}
-                  <FaInstagram />
-                </a>
+              <li
+                onClick={() => window.open('https://www.instagram.com/')}
+                className='hover:text-red-400 cursor-pointer'
+              >
+                {' '}
+                <FaInstagram />
               </li>
-              <li className='hover:text-red-400'>
-                <a href='https://www.dribbble.com/'>
-                  <FaDribbble />
-                </a>
+              <li
+                onClick={() => window.open('https://www.dribbble.com/')}
+                className='hover:text-red-400 cursor-pointer'
+              >
+                <FaDribbble />
               </li>
-              <li className='hover:text-red-400'>
-                <a href='https://www.pinterest.com/'>
-                  {' '}
-                  <FaPinterest />
-                </a>
+              <li
+                onClick={() => window.open('https://www.pinterest.com/')}
+                className='hover:text-red-400 cursor-pointer'
+              >
+                {' '}
+                <FaPinterest />
               </li>
             </ul>
           </div>
