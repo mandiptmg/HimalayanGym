@@ -13,7 +13,7 @@ const Footer = () => {
         ></iframe>
         <div className='text-center text-sm italic pt-16'>
          <p>
-          Copyright &copy; All rights reserved.
+          All rights reserved by © Mandip creative 2023
          </p>
         </div>
       </div>
