@@ -6,7 +6,7 @@ import BasicModal from './BasicModal'
 const About = () => {
   const { setIsOpen } = useGlobalContext()
   return (
-    <div id='2' className='container mt-4 py-10 mx-auto'>
+    <div id='2' className='md:container w-[90vw] mt-4 py-10 mx-auto'>
       <div className='grid items-center md:grid-cols-2 relative'>
         <div className='relative'>
           <img
